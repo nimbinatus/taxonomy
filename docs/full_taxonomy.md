@@ -171,6 +171,9 @@ mindmap
             techniques
         culinary
             cooking
+            cuisines
+            food preparation
+            presentation
         fiber arts
             crocheting
             knitting
@@ -179,24 +182,12 @@ mindmap
             id(...)
         fine arts
             id(...)
+        hobbies
+        literature
         music
-            genre
-                blues
-                classical
-                country
-                easy listening
-                electronic
-                folk
-                hip hop
-                jazz
-                pop
-                R&B and soul
-                regional and cultural
-                religious
-                rock
-                traditional
             fandom
-                id(swifties)
+                id(...)
+            genre
                 id(...)
             instruments
             id(...)
@@ -223,6 +214,39 @@ mindmap
             target
             watersports
             weightlifting and strength
+        id(...)
+```
+#### Music
+```mermaid
+---
+title: Arts and Recreation - Music
+config:
+    fontSize: 8
+    theme: base
+    mindmap:
+        maxNodeWidth: 100
+---
+mindmap
+    root((music))
+        fandom
+            id(swifties)
+            id(...)
+        genre
+            blues
+            classical
+            country
+            easy listening
+            electronic
+            folk
+            hip hop
+            jazz
+            pop
+            R&B and soul
+            regional and cultural
+            religious
+            rock
+            traditional
+        instruments
         id(...)
 ```
 #### Sports
@@ -458,11 +482,105 @@ mindmap
         id(...)
 ```
 ### Geography
+```mermaid
+---
+title: Geography
+config:
+    fontSize: 8
+    theme: base
+    mindmap:
+        maxNodeWidth: 100
+---
+mindmap
+    root((Geography))
+        Northern Hemisphere
+            Asia
+            Europe
+            North America
+        Southern Hemisphere
+            Antartica
+            Australia
+            South America
+        Oceans and seas
+        id(...)
+```
 ### History
+```mermaid
+---
+title: History
+config:
+    fontSize: 8
+    theme: base
+    mindmap:
+        maxNodeWidth: 100
+---
+mindmap
+    root((History))
+        historiography
+        human history
+            prehistory
+            
+        methods and tools
+        philosophy of history
+        schools of thought
+        id(...)
+```
 ### Linguistics
+```mermaid
+---
+title: Linguistics
+config:
+    fontSize: 8
+    theme: base
+    mindmap:
+        maxNodeWidth: 100
+---
+mindmap
+    root((Linguistics))
+        id(...)
+```
 ### Mathematics
+```mermaid
+---
+title: Mathematics
+config:
+    fontSize: 8
+    theme: base
+    mindmap:
+        maxNodeWidth: 100
+---
+mindmap
+    root((Mathematics))
+        id(...)
+```
 ### Philosophy
+```mermaid
+---
+title: Philosophy
+config:
+    fontSize: 8
+    theme: base
+    mindmap:
+        maxNodeWidth: 100
+---
+mindmap
+    root((Philosophy))
+        id(...)
+```
 ### Religion
+```mermaid
+---
+title: Religion
+config:
+    fontSize: 8
+    theme: base
+    mindmap:
+        maxNodeWidth: 100
+---
+mindmap
+    root((Religion))
+        id(...)
+```
 ### Science
 ```mermaid
 ---
