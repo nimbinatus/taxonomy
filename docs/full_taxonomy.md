@@ -166,18 +166,166 @@ config:
 ---
 mindmap
     root((arts and recreation))
+        cinema and film
+            genres
+            techniques
+        culinary
+            cooking
         fiber arts
+            crocheting
+            knitting
+            sewing
+            weaving
             id(...)
         fine arts
             id(...)
         music
+            genre
+                blues
+                classical
+                country
+                easy listening
+                electronic
+                folk
+                hip hop
+                jazz
+                pop
+                R&B and soul
+                regional and cultural
+                religious
+                rock
+                traditional
             fandom
                 id(swifties)
                 id(...)
+            instruments
             id(...)
         sports
-            id(...)
+            acrobatics
+            air
+            aquatics
+            athletics
+            ball-and-bat
+            billiards
+            boules
+            bowling
+            cycling
+            disc
+            equestrian
+            golf
+            gymnastics
+            goal-based
+            martial arts and combat
+            motorsports
+            outdoor
+            racket/net
+            snow
+            target
+            watersports
+            weightlifting and strength
         id(...)
+```
+#### Sports
+```mermaid
+---
+title: Arts and Recreation - Sports
+config:
+    fontSize: 8
+    theme: base
+    mindmap:
+        maxNodeWidth: 100
+---
+mindmap
+    root((sports))
+        acrobatics
+            cheerleading and color guard
+            dancing
+            figure skating
+            parkour
+        air
+            aerobatics
+            ballooning
+            gliding
+            parachuting and wingsuit flying
+        aquatics
+            diving
+            swimming
+            water polo
+        athletics
+            running and walking
+                endurance
+                hurdles
+                sprint
+            throwing
+            vaulting and jumping
+        ball-and-bat
+            baseball
+            cricket
+            softball
+        billiards
+            croquet
+            foosball
+            pool
+        boules
+            bocce
+            curling
+            shuffleboard
+        bowling
+        cycling
+        disc
+            disc dog
+            disc golf
+            ultimate
+        equestrian
+            dressage
+            eventing
+            jumping
+            rodeo
+            western
+        golf
+        gymnastics
+        goal-based
+            American football
+            basketball
+            field hockey
+            flag football
+            football <US: soccer>
+            hockey
+            lacrosse
+            polo
+            rugby
+        martial arts and combat
+            boxing
+            fencing
+            Jujitsu
+            Judo
+            Sumo
+            wrestling
+        motorsports
+        outdoor
+            camping
+            climbing
+            hiking
+            orienteering
+        racket/net
+            badminton
+            pickleball
+            racquetball
+            squash
+            table tennis
+            tennis
+            volleyball
+        snow
+            skiing
+            snowboarding
+        target
+            archery
+            shooting
+        watersports
+            canoeing
+            rowing
+            sailing
+        weightlifting and strength
 ```
 ### Engineering
 ```mermaid
@@ -414,7 +562,37 @@ config:
 mindmap
     root((technology))
         agriculture
+            agricultrual chemistry
+            agricultural education
+            agronomy
+            aquaculture
+            animal husbandry
+            communication, economics, and policy
+            crops
+            equipment and material
+            farming
+                organic
+            fishery
+            forestry
+            horticulture
+            industry
+                food safety and processing
+            ranching
+            techniques and practices
+                aeroponics
+                aquaponics
+                grazing
+                harvesting
+                hydroponics
+                irrigation
+                pasteurization
+                permaculture
+                pest control
+                sustainable agriculture
+            viticulture
         inventions and patents
         medicine and health
+            pharmacology and therapeutics
+            surgery
         id(...)
 ```
