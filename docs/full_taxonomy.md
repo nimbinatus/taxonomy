@@ -44,19 +44,15 @@ mindmap
             id(logical sequence of words)
             id(object identification)
             id(odd one out)
-            id(...)
         logical
             id(causal)
             id(general)
             id(tabular)
-            id(...)
         id(mathematical)
         id(temporal)
         id(theory of mind)
         unconventional
             id(lower score wins)
-            id(...)
-        id(...)
 ```
 ## Compositional Skills
 
@@ -151,7 +147,7 @@ config:
     fontSize: 8
 ---
 mindmap
-    root((freeform or ungrounded compositional skills))
+    root((freeform/ ungrounded))
         arts and recreation
             id(...)
         engineering
@@ -186,6 +182,8 @@ mindmap
 * [Religion](#religion)
 * [Science](#science)
 * [Technology](#technology)
+
+Note that none of these subgraphs are intended to be completely comprehensive.
 
 ### Overall Knowledge
 ```mermaid
@@ -233,22 +231,35 @@ mindmap
     root((arts and recreation))
         cinema and film
             genres
+                id(...)
             techniques
+                id(...)
+            id(...)
         culinary
             cooking
+                id(...)
             cuisines
+                id(...)
             food preparation
+                id(...)
             presentation
+                id(...)
         fiber arts
             crocheting
+                id(...)
             knitting
+                id(...)
             sewing
+                id(...)
             weaving
+                id(...)
             id(...)
         fine arts
             id(...)
         hobbies
+            id(...)
         literature
+            id(...)
         music
             id(ref subgraph)
         sports
@@ -267,25 +278,77 @@ config:
 ---
 mindmap
     root((music))
+        composition
+            notation
+                id(...)
+            id(...)
+        elements
+            expression
+                id(...)
+            form
+                id(...)
+            harmony
+                id(...)
+            melody
+                id(...)
+            pitch
+                id(...)
+            rhythm
+                id(...)
+            texture
+                id(...)
+            timbre or color
+                id(...)
         fandom
             id(swifties)
             id(...)
         genre
             blues
+                id(...)
             classical
+                id(...)
             country
+                id(...)
             easy listening
+                id(...)
             electronic
+                id(...)
             folk
+                id(...)
             hip hop
+                id(...)
             jazz
+                id(...)
             pop
+                id(...)
             R&B and soul
+                id(...)
             regional and cultural
+                id(...)
             religious
+                id(...)
             rock
+                id(...)
             traditional
+                id(...)
+        history
+            id(...)
         instruments
+            id(...)
+        musicology
+            ethnomusicology
+                id(...)
+            zoomusicology
+                id(...)
+            id(...)
+        performance
+            improvisation
+                id(...)
+            id(...)
+        theory
+            id(...)
+        therapy
+            id(...)
         id(...)
 ```
 #### Sports
@@ -301,92 +364,143 @@ config:
 mindmap
     root((sports))
         acrobatics
+            breakdancing
             cheerleading and color guard
             dancing
             figure skating
             parkour
+            id(...)
         air
             aerobatics
             ballooning
             gliding
             parachuting and wingsuit flying
-        aquatics
-            diving
-            swimming
-            water polo
+            id(...)
         athletics
             running and walking
                 endurance
                 hurdles
                 sprint
-            throwing
+                id(...)
             vaulting and jumping
-        ball-and-bat
-            baseball
-            cricket
-            softball
-        billiards
-            croquet
-            foosball
-            pool
-        boules
-            bocce
-            curling
-            shuffleboard
-        bowling
+                id(...)
+        ball games
+            ball-and-bat
+                baseball
+                cricket
+                softball
+                id(...)
+            billiards
+                cue
+                    pool
+                ground
+                    croquet
+                table
+                    foosball
+            boules
+                bocce
+                curling
+                shuffleboard
+            bowling
+            dodgeball
+            golf
+            invasion or goal
+                association football
+                basketball
+                field hockey
+                flag football
+                gridiron football
+                handball
+                hockey
+                hurling
+                lacrosse
+                polo
+                rugby
+                water polo
+            net or wall
+                racket
+                    badminton
+                    pickleball
+                    squash
+                    table tennis
+                    tennis
+                volleyball
+        board sports
+            skateboarding
+            snowboarding
+            surfing
         cycling
+            id(...)
         disc
             disc dog
             disc golf
             ultimate
+            id(...)
         equestrian
             dressage
             eventing
             jumping
             rodeo
             western
-        golf
         gymnastics
-        goal-based
-            American football
-            basketball
-            field hockey
-            flag football
-            football <US: soccer>
-            hockey
-            lacrosse
-            polo
-            rugby
+        kite
         martial arts and combat
-            boxing
-            fencing
-            Jujitsu
-            Judo
-            Sumo
-            wrestling
+            armed
+                fencing
+            unarmed
+                strikes
+                    boxing
+                    Taekwando
+                grappling
+                    Jujitsu
+                    Judo
+                    Sumo
+                    wrestling
+            id(...)
+        mixed
         motorsports
+            air
+            auto
+            motorboat
+            motorcycle
+        racing
+            running and walking
+            skating
         outdoor
             camping
-            climbing
+            climbing and mountaineering
+            fishing
             hiking
+            hunting
             orienteering
-        racket/net
-            badminton
-            pickleball
-            racquetball
-            squash
-            table tennis
-            tennis
-            volleyball
+        shooting
+            archery
+            bullseye
+            field
+            practical
+            skeet
+            trap
         snow
             skiing
-            snowboarding
-        target
-            archery
-            shooting
-        watersports
-            canoeing
-            rowing
+            sledding
+                bobsleigh
+                luge
+                toboggan
+        throwing
+            track and field
+                discus
+                hammer
+                javelin
+                shot put
+        water
+            aquatics
+                diving
+                swimming
+            paddling
+                canoeing
+                kayaking
+                rafting
+                rowing
             sailing
         weightlifting and strength
 ```
@@ -404,13 +518,9 @@ mindmap
     root((engineering))
         agricultural
             aquaculture
-                id(...)
             biomechanical
-                id(...)
             food
-                id(...)
             forest
-                id(...)
             id(...)
         applied
             id(...)
@@ -537,7 +647,7 @@ mindmap
             Europe
             North America
         Southern Hemisphere
-            Antartica
+            Antarctica
             Australia
             South America
         Oceans and seas
@@ -586,11 +696,56 @@ config:
     fontSize: 8
     theme: base
     mindmap:
-        maxNodeWidth: 100
+        maxNodeWidth: 110
 ---
 mindmap
     root((Mathematics))
-        id(...)
+        algebra
+            abstract
+            field theory
+            group theory
+            Lie
+            linear and multilinear
+                matrix theory
+            module theory
+            ring theory
+            tensor algebra
+            vector space
+        applied
+            game theory
+        calculus
+            analysis
+                Fourier analysis
+            differential
+            fundamental theorem
+            integral
+            multivariable or multivariate
+                differential equations
+                tensor calculus
+            precalculus
+            vector calculus
+        computational
+        discrete
+            combinatorics
+            graph theory
+            information theory
+        geometry
+            algebraic
+            differential
+            Euclidean
+            non-Euclidian
+            trigonometry
+        logic
+            computability theory
+            computational complexity theory
+            model theory
+            proof theory
+            type theory
+        number theory
+        set theory
+        statistics
+            probability
+                decision theory
 ```
 ### Philosophy
 ```mermaid
