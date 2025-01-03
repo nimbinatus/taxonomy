@@ -39,8 +39,7 @@ config:
 ---
 mindmap
     root((reasoning))
-        common sense
-            id(...)
+        id(common sense)
         linguistics
             id(logical sequence of words)
             id(object identification)
@@ -51,12 +50,9 @@ mindmap
             id(general)
             id(tabular)
             id(...)
-        mathematical
-            id(...)
-        temporal
-            id(...)
-        theory of mind
-            id(...)
+        id(mathematical)
+        id(temporal)
+        id(theory of mind)
         unconventional
             id(lower score wins)
             id(...)
