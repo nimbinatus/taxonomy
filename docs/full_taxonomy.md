@@ -414,6 +414,7 @@ config:
 mindmap
     root((technology))
         agriculture
+        inventions and patents
         medicine and health
         id(...)
 ```
