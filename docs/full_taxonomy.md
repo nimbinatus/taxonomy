@@ -3,10 +3,16 @@
 This is the basic structure of our taxonomy.
 
 ```mermaid
+---
+title: Root Taxonomy
+config:
+    theme: base
+    mindmap:
+        maxNodeWidth: 100
+---
 mindmap
   root((taxonomy))
     foundational skills
-    ::icon(warning)
         id(...)
     compositional skills
         id(...)
@@ -19,28 +25,43 @@ mindmap
 Note that the InstructLab project is not accepting submissions for foundational skills at this time.
 
 ```mermaid
+---
+title: Foundational Skills
+config:
+    fontSize: 8
+    theme: base
+    mindmap:
+        maxNodeWidth: 110
+---
 mindmap
     root((foundational skills))
-    ::icon(warning)
         reasoning
-            id(common sense)
-            linguistics
-                id(logical sequence of words)
-                id(object identification)
-                id(odd one out)
-            logical
-                id(causal)
-                id(general)
-                id(tabular)
-            id(mathematical)
-            id(temporal)
-            id(theory of mind)
-            unconventional
+            id1(common sense)
+            id{{linguistics}}
+                id1(logical sequence of words)
+                id1(object identification)
+                id1(odd one out)
+            id2{{logical}}
+                id1(causal)
+                id1(general)
+                id1(tabular)
+            id1(mathematical)
+            id1(temporal)
+            id1(theory of mind)
+            id2{{unconventional}}
                 id(lower score wins)
 ```
 ## Compositional Skills
 
 ```mermaid
+---
+title: Compositional Skills
+config:
+    theme: base
+    mindmap:
+        maxNodeWidth: 100
+    fontSize: 8
+---
 mindmap
     root((compositional skills))
         arts and recreation
@@ -50,27 +71,27 @@ mindmap
         geography
             id(...)
         grounded
-            arts and recreation
+            id{{arts and recreation}}
                 id(...)
-            engineering
+            id{{engineering}}
                 id(...)
-            geography
+            id{{geography}}
                 id(...)
-            history
+            id{{history}}
                 id(...)
-            linguistics
+            id{{linguistics}}
                 id(inclusion)
                 id(...)
-                writing
+                id{{writing}}
                     id(rewriting)
                     id(...)
-            philosophy
+            id{{philosophy}}
                 id(...)
-            religion
+            id{{religion}}
                 id(...)
-            science
+            id{{science}}
                 id(...)
-            technology
+            id{{technology}}
                 id(...)
         history
             id(...)
@@ -103,6 +124,13 @@ mindmap
 
 ### Overall
 ```mermaid
+---
+title: Knowledge
+config:
+    theme: base
+    mindmap:
+        maxNodeWidth: 100
+---
 mindmap
     root((knowledge))
         arts and recreation
@@ -128,6 +156,14 @@ mindmap
 ```
 ### Arts and Recreation
 ```mermaid
+---
+title: Arts and Recreation
+config:
+    fontSize: 8
+    theme: base
+    mindmap:
+        maxNodeWidth: 100
+---
 mindmap
     root((arts and recreation))
         fiber arts
@@ -145,6 +181,14 @@ mindmap
 ```
 ### Engineering
 ```mermaid
+---
+title: Engineering
+config:
+    fontSize: 8
+    theme: base
+    mindmap:
+        maxNodeWidth: 100
+---
 mindmap
     root((engineering))
         agricultural
@@ -273,6 +317,14 @@ mindmap
 ### Religion
 ### Science
 ```mermaid
+---
+title: Science
+config:
+    fontSize: 8
+    theme: base
+    mindmap:
+        maxNodeWidth: 100
+---
 mindmap
     root((science))
         animals and zoology
@@ -351,6 +403,14 @@ mindmap
 ```
 ### Technology
 ```mermaid
+---
+title: Technology
+config:
+    fontSize: 8
+    theme: base
+    mindmap:
+        maxNodeWidth: 100
+---
 mindmap
     root((technology))
         agriculture
