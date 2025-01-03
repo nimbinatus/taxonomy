@@ -13,20 +13,24 @@ config:
 mindmap
   root((taxonomy))
     foundational skills
-        id(...)
+        id(ref subgraph)
     compositional skills
-        id(...)
+        id(ref subgraph)
     knowledge
-        id(...)
+        id(ref subgraph)
 ```
 
-## Foundational Skills
+## Foundational or Core Skills
 
 Note that the InstructLab project is not accepting submissions for foundational skills at this time.
 
+To learn more, reference [the docs on core skills](https://docs.instructlab.ai/taxonomy/skills/skills_guide/#core-skills).
+
+Currently, the only foundational skill tree is reasoning.
+
 ```mermaid
 ---
-title: Foundational Skills
+title: Foundational Skills - Reasoning
 config:
     fontSize: 8
     theme: base
@@ -34,25 +38,37 @@ config:
         maxNodeWidth: 110
 ---
 mindmap
-    root((foundational skills))
-        reasoning
-            id1(common sense)
-            id{{linguistics}}
-                id1(logical sequence of words)
-                id1(object identification)
-                id1(odd one out)
-            id2{{logical}}
-                id1(causal)
-                id1(general)
-                id1(tabular)
-            id1(mathematical)
-            id1(temporal)
-            id1(theory of mind)
-            id2{{unconventional}}
-                id(lower score wins)
+    root((reasoning))
+        common sense
+            id(...)
+        linguistics
+            id(logical sequence of words)
+            id(object identification)
+            id(odd one out)
+            id(...)
+        logical
+            id(causal)
+            id(general)
+            id(tabular)
+            id(...)
+        mathematical
+            id(...)
+        temporal
+            id(...)
+        theory of mind
+            id(...)
+        unconventional
+            id(lower score wins)
+            id(...)
+        id(...)
 ```
 ## Compositional Skills
 
+* [Overall](#overall-skills)
+* [Grounded](#grounded)
+* [Freeform](#freeform)
+
+### Overall Skills
 ```mermaid
 ---
 title: Compositional Skills
@@ -71,28 +87,81 @@ mindmap
         geography
             id(...)
         grounded
-            id{{arts and recreation}}
+            id(ref subgraph)
+        history
+            id(...)
+        linguistics
+            id(synonyms)
+            id(...)
+        philosophy
+            id(...)
+        religion
+            id(...)
+        science
+            id(...)
+        technology
+            id(...)
+```
+### Grounded
+
+To learn about what grounded skills are, reference [the docs on grounded compositional skills](https://docs.instructlab.ai/taxonomy/skills/skills_guide/#grounded-compositional-skills).
+
+```mermaid
+---
+title: Compositional Skills - Grounded
+config:
+    theme: base
+    mindmap:
+        maxNodeWidth: 100
+    fontSize: 8
+---
+mindmap
+    root((grounded))
+        arts and recreation
+            id(...)
+        engineering
+            id(...)
+        geography
+            id(...)
+        history
+            id(...)
+        linguistics
+            id(inclusion)
+            id(...)
+            id{{writing}}
+                id(rewriting)
                 id(...)
-            id{{engineering}}
-                id(...)
-            id{{geography}}
-                id(...)
-            id{{history}}
-                id(...)
-            id{{linguistics}}
-                id(inclusion)
-                id(...)
-                id{{writing}}
-                    id(rewriting)
-                    id(...)
-            id{{philosophy}}
-                id(...)
-            id{{religion}}
-                id(...)
-            id{{science}}
-                id(...)
-            id{{technology}}
-                id(...)
+        philosophy
+            id(...)
+        religion
+            id(...)
+        science
+            id(...)
+        technology
+            id(...)
+```
+
+### Freeform
+
+To learn about what freeform or ungrounded compositional skills are, reference [the docs on freeform compositional skills](https://docs.instructlab.ai/taxonomy/skills/skills_guide/#freeform-compositional-skills).
+
+```mermaid
+---
+title: Compositional Skills - Freeform
+config:
+    theme: base
+    mindmap:
+        maxNodeWidth: 100
+    fontSize: 8
+---
+mindmap
+    root((freeform or ungrounded compositional skills))
+        arts and recreation
+            id(...)
+        engineering
+            id(...)
+        geography
+            id(...)
         history
             id(...)
         linguistics
@@ -110,7 +179,7 @@ mindmap
 
 ## Knowledge
 
-* [Overall](#overall)
+* [Overall](#overall-knowledge)
 * [Arts and Recreation](#arts-and-recreation)
 * [Engineering](#engineering)
 * [Geography](#geography)
@@ -122,7 +191,7 @@ mindmap
 * [Science](#science)
 * [Technology](#technology)
 
-### Overall
+### Overall Knowledge
 ```mermaid
 ---
 title: Knowledge
@@ -134,25 +203,25 @@ config:
 mindmap
     root((knowledge))
         arts and recreation
-            id(...)
+            id(ref subgraph)
         engineering
-            id(...)
+            id(ref subgraph)
         geography
-            id(...)
+            id(ref subgraph)
         history
-            id(...)
+            id(ref subgraph)
         linguistics
-            id(...)
+            id(ref subgraph)
         mathematics
-            id(...)
+            id(ref subgraph)
         philosophy
-            id(...)
+            id(ref subgraph)
         religion
-            id(...)
+            id(ref subgraph)
         science
-            id(...)
+            id(ref subgraph)
         technology
-            id(...)
+            id(ref subgraph)
 ```
 ### Arts and Recreation
 ```mermaid
@@ -185,35 +254,9 @@ mindmap
         hobbies
         literature
         music
-            fandom
-                id(...)
-            genre
-                id(...)
-            instruments
-            id(...)
+            id(ref subgraph)
         sports
-            acrobatics
-            air
-            aquatics
-            athletics
-            ball-and-bat
-            billiards
-            boules
-            bowling
-            cycling
-            disc
-            equestrian
-            golf
-            gymnastics
-            goal-based
-            martial arts and combat
-            motorsports
-            outdoor
-            racket/net
-            snow
-            target
-            watersports
-            weightlifting and strength
+            id(ref subgraph)
         id(...)
 ```
 #### Music
@@ -512,7 +555,7 @@ config:
     fontSize: 8
     theme: base
     mindmap:
-        maxNodeWidth: 100
+        maxNodeWidth: 105
 ---
 mindmap
     root((History))
